@@ -1,6 +1,6 @@
 select 
     job_id,
-    job_title_short,
+    job_country,
     cd.company_id
 from 
     job_postings_fact as jpf
