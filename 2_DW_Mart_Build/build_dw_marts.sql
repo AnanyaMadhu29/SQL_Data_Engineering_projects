@@ -8,3 +8,6 @@
 
 --Step 3: DW - create flat mart table
 .read 03_create_flat_mart.sql
+
+--Step 4: DW - create skills mart
+.read 04_create_skills_mart.sql
