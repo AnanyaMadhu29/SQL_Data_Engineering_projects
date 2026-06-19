@@ -38,6 +38,7 @@ on jpf.job_title_short = r.role_name;
 
 SELECT '===Batch Updating priority_jobs_snapshot Priority Mart ===' AS info;
 
+
 merge into priority_mart.priority_jobs_snapshot as tgt
 using src_priority_jobs as src
 on tgt.job_id = src.job_id
