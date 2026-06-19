@@ -11,3 +11,9 @@
 
 --Step 4: DW - create skills mart
 .read 04_create_skills_mart.sql
+
+--Step 5: DW - create priority mart
+.read 05_create_priority_mart.sql
+
+--Step 6: DW - update priority mart
+.read 06_update_priority_mart.sql
